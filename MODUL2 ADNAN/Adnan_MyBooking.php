@@ -31,7 +31,7 @@
 
     <?php
     $noBooking = rand(1000000000, 9999999999);
-    $tglBooking = $_POST["bookDate"];
+    $tglBookings = $_POST["bookDate"];
     $waktu = $_POST["time"];
     $durasi = $_POST["duration"];
     $tipeMobil = $_POST["carType"];

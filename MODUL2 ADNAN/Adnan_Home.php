@@ -18,7 +18,7 @@
                             <a class="nav-link active text-white-50" href="Adnan_Home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white-50" href="Adnan_Booking.php">Booking</a>
+                            <a class="nav-link active text-white-50" href="Adnan_Booking.phpp">Booking</a>
                         </li>
                     </ul>
                 </div>
