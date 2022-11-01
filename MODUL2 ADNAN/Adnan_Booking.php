@@ -39,7 +39,7 @@
     <h3 style="text-align: center; padding-top: 5px">Rent your car now!</h3>
 
     <?php
-    if (isset($_GET[''])) {
+    if (isset($_GET['mobil'])) {
         $mobil = $_GET['mobil'];
         switch ($mobil) {
             case 'rush':

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,7 @@
 
     <?php
     $noBooking = rand(1000000000, 9999999999);
-    $tglBookings = $_POST["bookDate"];
+    $tglBooking = $_POST["bookDate"];
     $waktu = $_POST["time"];
     $durasi = $_POST["duration"];
     $tipeMobil = $_POST["carType"];
