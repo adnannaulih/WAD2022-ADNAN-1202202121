@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar a {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+#home h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+
+#home p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+#home .bungkus {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#home .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 137px;
+  height: 51px;
+  background: #3563e9;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+#form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#form .tambahh1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#form .tambahp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+
+#form form {
+  margin-top: 50px;
+}
+
+#form label,
+input {
+  display: block;
+}
+
+#form label {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  margin-top: 30px;
+}
+
+#form input {
+  width: 1000px;
+  height: 50px;
+  border: 1px solid #757575;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#form textarea {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#list h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#list p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+  margin-top: 20px;
+}
+
+#list .card {
+  background: #ffffff;
+  box-shadow: 6px 14px 40px rgba(210, 210, 210, 0.6);
+  border-radius: 16px;
+  width: 400px;
+  margin-top: 50px;
+}
+
+#detail {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#detail .tambahh1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#detail .tambahp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+
+#detail img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+#detail label,
+input {
+  display: block;
+}
+
+#detail label {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  margin-top: 30px;
+}
+
+#detail input {
+  width: 600px;
+  height: 50px;
+  border: 1px solid #757575;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#detail textarea {
+  padding: 20px;
+  margin-top: 20px;
+}
