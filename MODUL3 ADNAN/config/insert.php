@@ -14,13 +14,9 @@ $target = "../asset/images/";
 
 $noIdMobil = rand(1000000000, 9999999999);
 
-if (move_uploaded_file($_FILES['gambar']['tmp_name'], $target . $gambar)) {
-  $sql = "INSERT INTO showroom_adnan_table (id_mobil, nama_mobil, pemilik_mobil, merk_mobil, tanggal_beli, deskripsi, foto_mobil, status_pembayaran) VALUES ('$noIdMobil','$namamobil', '$pemilik', '$merk', '$tanggalbeli', '$desc', '$gambar', '$status')";
-  if (mysqli_query($conn, $sql)) {
+  $sqlinput = "INSERT INTO showroom_adnan_table VALUES ('$noIdMobil','$namamobil', '$pemilik', '$merk', '$tanggalbeli', '$desc', '$gambar', '$status')";
+  if (mysqli_query($conn, $sqlinput)) {
     header("location: ../pages/ListCar-Adnan.php?pesan=berhasil");
   } else {
     header("location: ../pages/ListCar-Adnan.php?pesan=gagal");
   }
-} else {
-  header("location: ../pages/ListCar-Adnan.php?pesan=gagal");
-}
