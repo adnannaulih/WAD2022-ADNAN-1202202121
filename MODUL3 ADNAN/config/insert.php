@@ -19,7 +19,7 @@ if (move_uploaded_file($_FILES['gambar']['tmp_name'], $target . $gambar)) {
   if (mysqli_query($conn, $sql)) {
     header("location: ../pages/ListCar-Adnan.php?pesan=berhasil");
   } else {
-    header("location: ../pages/ListCar-Adnan.php?pesan=hapus");
+    header("location: ../pages/ListCar-Adnan.php?pesan=gagal");
   }
 } else {
   header("location: ../pages/ListCar-Adnan.php?pesan=gagal");
