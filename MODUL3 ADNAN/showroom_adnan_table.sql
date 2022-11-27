@@ -2,8 +2,8 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 20, 2022 at 02:31 PM
+-- Host: localhost:3307
+-- Generation Time: Nov 27, 2022 at 02:34 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.0.23
 
@@ -43,8 +43,9 @@ CREATE TABLE `showroom_adnan_table` (
 --
 
 INSERT INTO `showroom_adnan_table` (`id_mobil`, `nama_mobil`, `pemilik_mobil`, `merk_mobil`, `tanggal_beli`, `deskripsi`, `foto_mobil`, `status_pembayaran`) VALUES
-(1972160649, 'BMW XM', 'Adnan - 1202202121', 'BMW', '2022-10-10', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur rutrum ex a consequat. Nunc mattis, quam sed facilisis efficitur, lorem eros egestas erat, id finibus elit lacus condimentum felis. Nunc diam mauris, ultricies sit amet rutrum nec, venenatis id erat. Aliquam mi sapien, tristique ut sagittis eu, sollicitudin lacinia felis. In et augue mollis nisl efficitur blandit vel in orci. Nunc ultrices tellus ac feugiat varius.', 'BMW XM.jpg', 'Lunas'),
-(2147483647, 'BMW X6M', 'Adnan - 1202202121', 'BMW', '2022-10-19', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur rutrum ex a consequat. Nunc mattis, quam sed facilisis efficitur, lorem eros egestas erat, id finibus elit lacus condimentum felis. Nunc diam mauris, ultricies sit amet rutrum nec, venenatis id erat. Aliquam mi sapien, tristique ut sagittis eu, sollicitudin lacinia felis. In et augue mollis nisl efficitur blandit vel in orci. Nunc ultrices tellus ac feugiat varius.', 'BMW X6M.jpg', 'Lunas');
+(1, 'BMW XM', 'Adnan - 1202202121', 'BMW', '2022-10-10', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor odio sit amet porttitor congue. Quisque vestibulum tristique lectus sed fringilla. Maecenas a magna malesuada, tristique sapien sed, aliquam nulla. Pellentesque sed velit ultrices, laoreet ligula ac, posuere metus. Praesent a aliquet erat. ', 'BMW XM.jpg', 'Lunas'),
+(3, 'Jumbotron', 'Adnan - 1202202121', 'BMW', '2022-10-10', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor odio sit amet porttitor congue. Quisque vestibulum tristique lectus sed fringilla. Maecenas a magna malesuada, tristique sapien sed, aliquam nulla. Pellentesque sed velit ultrices, laoreet ligula ac, posuere metus. Praesent a aliquet erat. ', 'jumbotron.png', 'Belum Lunas'),
+(6, 'BMW X6M', 'Adnan - 1202202121', 'BMW', '2022-10-02', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta at mi eu bibendum. Nulla sollicitudin vulputate nisl tincidunt consequat. Aliquam erat volutpat. Morbi id bibendum tellus, eu blandit dui. Praesent metus odio, molestie eget nulla eu, luctus dignissim nunc. Praesent auctor lacinia risus nec faucibus.', 'BMW X6M.jpg', 'Lunas');
 
 --
 -- Indexes for dumped tables
@@ -55,6 +56,16 @@ INSERT INTO `showroom_adnan_table` (`id_mobil`, `nama_mobil`, `pemilik_mobil`, `
 --
 ALTER TABLE `showroom_adnan_table`
   ADD PRIMARY KEY (`id_mobil`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `showroom_adnan_table`
+--
+ALTER TABLE `showroom_adnan_table`
+  MODIFY `id_mobil` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

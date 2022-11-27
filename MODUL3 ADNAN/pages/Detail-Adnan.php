@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $sql);
                     <label for='tanggalbeli'>Tanggal Beli</label>
                     <input type='date' id='tanggalbeli' name='tanggalbeli' value='" . $getDetail["tanggal_beli"] . "' readonly>
                     <label for='desc'>Deskripsi</label>
-                    <textarea id='desc' name='desc' style='height:200px; width: 600px; border-radius: 8px;' readonly> " . $getDetail["deskripsi"] . " </textarea>
+                    <textarea id='desc' name='desc' style='height:200px; width: 600px; border-radius: 8px;' readonly>" . $getDetail["deskripsi"] . "</textarea>
                     <label for='inputGroupFile01'>Foto</label>
                     <input type='file' class='form-control' id='inputGroupFile01' value='" . $getDetail["foto_mobil"] . "' name='gambar' style='height: 40px;'>
                     <label for='status'>Status Pembayaran</label>
