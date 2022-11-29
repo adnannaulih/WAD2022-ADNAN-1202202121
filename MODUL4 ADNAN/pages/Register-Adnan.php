@@ -1,5 +1,5 @@
     <?php
-();
+    session_start();
     require "../config/connector.php";
     if (isset($_POST["register"])) {
         $email = $_POST["email"];

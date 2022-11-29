@@ -24,7 +24,7 @@
                     }
 
                     if (isset($_POST['remember'])) {
-                        ("password", $data["password"], time() + 3600);
+                        setcookie("password", $data["password"], time() + 3600);
                         setcookie("email", $data["email"], time() + 3600);
                     }
                     return header("Location: HomeLogin-Adnan.php");

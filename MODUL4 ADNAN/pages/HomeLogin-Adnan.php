@@ -22,7 +22,7 @@
     </head>
 
     <body>
-    <nav style="background-color: <?php echo ['warnanav']?>" class="navbar navbar-expand-lg">
+    <nav style="background-color: <?php echo $_SESSION['warnanav']?>" class="navbar navbar-expand-lg">
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav gap-3">
