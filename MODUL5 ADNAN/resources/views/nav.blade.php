@@ -23,7 +23,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-auto">
-                            <a href="Add-Adnan.php" class="btn btn-light text-dark">Add Car</a>
+                            <a href="/addcar" class="btn btn-light text-dark">Add Car</a>
                         </div>
                         <div class="col-md-auto">
                             <div class="dropdown">

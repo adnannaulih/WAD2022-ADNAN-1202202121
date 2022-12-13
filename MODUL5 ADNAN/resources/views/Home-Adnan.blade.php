@@ -18,9 +18,13 @@
         <div class="container">
             <div class="d-flex gap-5 bungkus justify-content-center align-items-center">
                 <div>
-                    <h1>Selamat Datang Di<br /> Show Room @auth {{ auth()->user()->name }} @endauth</h1>
+                    <h1>Selamat Datang Di<br /> Show Room @auth {{ auth()->user()->name }} @endauth
+                    </h1>
                     <p class="mt-3">At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis<br /> curses
                         vestibulum, facilisi ac, sed faucibus</p>
+                    @auth
+                        <a href="/listcar" class="button btn-primary">MyCar</a>
+                    @endauth
                     <div class="d-flex align-items-center gap-5 mt-5">
                         <img src="/images/logo-ead.png" alt="logoead" style="width:100px;">
                         <p style="margin-top: 20px; font-size:14px;">Adnan_1202202121</p>
